@@ -19,6 +19,13 @@ Not Recomend to use ``new`` keyword
 2. Number()
 3. Boolean()
 
+## Abstract Operations
+
+1. ToPrimitive
+2. ToString
+3. ToNumber
+4. ToBoolean
+
 ## Falsy Lookup Table
 
 Boolean(anyValueOnList) === false, sometime else return true 
