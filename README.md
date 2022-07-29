@@ -36,3 +36,30 @@ Boolean(anyValueOnList) === false, sometime else return true
 4. NaN
 5. false
 5. undefined
+
+# Corner Cases
+
+## Number
+```
+    Number("")              // 0 
+    Number("    ")          // 0 
+    Number(null)            // 0 
+    Number(undefined)       // Nan
+    Number([])              // 0 
+    Number([1, 2, 3])       // NaN
+    Number([null])          // 0 
+    Number([undefined])     // 0
+    Number({})              // NaN
+```
+## String
+```
+    String(-0)              // "0" 
+    String(null)            // "null"
+    String(undefined)       // "undefined"
+    String([null])          // "" damm
+    String([undefined])     // "" wtf!
+```
+## Boolean
+```
+    Boolean()              //  
+```
