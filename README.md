@@ -4,7 +4,7 @@
 
 ## Fundamentals Objects
 
-Recomend to use ``new`` keyword
+Recommend to use ``new`` keyword
 
 1. Object()
 2. Array()
@@ -13,7 +13,7 @@ Recomend to use ``new`` keyword
 5. RegExp()
 6. Error()
 
-Not Recomend to use ``new`` keyword
+Not Recomm  end to use ``new`` keyword
 
 1. String()
 2. Number()
@@ -40,6 +40,11 @@ Boolean(anyValueOnList) === false, sometime else return true
 # Corner Cases
 
 ## Number
+
+[!NOTE]
+This fundamental operation, first strips off all leading and
+trailing whitespaces before doing coercion.
+
 ```
     Number("")              // 0 
     Number("    ")          // 0 
