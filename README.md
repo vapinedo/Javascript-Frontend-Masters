@@ -66,5 +66,20 @@ This fundamental operation, first strips off all leading and trailing whitespace
 ```
 ## Boolean
 ```
-    Boolean()              //  
+    1 < 2                   // true
+    2 < 3                   // true
+    1 < 2 < 3               // true
+
+    (1 < 2) < 3
+    (true) < 3
+    1 < 3                   // true
+
+    3 > 2                   // true
+    2 > 1                   // true
+    3 > 2 > 1               // false (Oops!)
+
+    (3 > 2) > 1
+    (true) > 1
+    1 > 1                   // false
+
 ```
