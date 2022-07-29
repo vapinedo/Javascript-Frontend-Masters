@@ -41,9 +41,8 @@ Boolean(anyValueOnList) === false, sometime else return true
 
 ## Number
 
-[!NOTE]
-This fundamental operation, first strips off all leading and
-trailing whitespaces before doing coercion.
+> [!NOTE]
+> This fundamental operation, first strips off all leading and trailing whitespaces before doing coercion.
 
 ```
     Number("")              // 0 
