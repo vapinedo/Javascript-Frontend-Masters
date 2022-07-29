@@ -43,7 +43,7 @@ Boolean(anyValueOnList) === false, sometime else return true
 
 > **NOTE**
 
-> This fundamental operation, first strips off all leading and trailing whitespaces before doing coercion.
+This fundamental operation, first strips off all leading and trailing whitespaces before doing coercion.
 
 ```
     Number("")              // 0 
