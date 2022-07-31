@@ -2,7 +2,7 @@
 
 1. Object.is ( custom polyfill )
 
-## Fundamentals Objects
+## 1. Fundamentals Objects
 
 Recommend to use ``new`` keyword
 
@@ -19,14 +19,14 @@ Not Recomm  end to use ``new`` keyword
 2. Number()
 3. Boolean()
 
-## Abstract Operations
+## 2. Abstract Operations
 
 1. ToPrimitive
 2. ToString
 3. ToNumber
 4. ToBoolean
 
-## Falsy Lookup Table
+## 3. Falsy Lookup Table
 
 Boolean(anyValueOnList) === false, sometime else return true 
 
@@ -37,9 +37,9 @@ Boolean(anyValueOnList) === false, sometime else return true
 5. false
 5. undefined
 
-# Corner Cases
+## 4. Corners Cases
 
-## Number
+### Number
 
 > **NOTE**
 
@@ -56,7 +56,7 @@ This fundamental operation, first strips off all leading and trailing whitespace
     Number([undefined])     // 0
     Number({})              // NaN
 ```
-## String
+### String
 ```
     String(-0)              // "0" 
     String(null)            // "null"
@@ -64,7 +64,7 @@ This fundamental operation, first strips off all leading and trailing whitespace
     String([null])          // "" damm
     String([undefined])     // "" wtf!
 ```
-## Boolean
+### Boolean
 ```
     1 < 2                   // true
     2 < 3                   // true
@@ -83,3 +83,8 @@ This fundamental operation, first strips off all leading and trailing whitespace
     1 > 1                   // false
 
 ```
+## 5. The 3 Javascript Core Components
+
+1. Memory Allocation
+2. Thread Execution
+3. Call Stack
