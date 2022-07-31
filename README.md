@@ -86,5 +86,5 @@ This fundamental operation, first strips off all leading and trailing whitespace
 ## 5. The 3 Javascript Core Components
 
 1. Memory Allocation
-2. Thread Execution
+2. Thread of Execution
 3. Call Stack
